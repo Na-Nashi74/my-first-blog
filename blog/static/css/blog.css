@@ -1,13 +1,17 @@
 .page-header {
-    background-color:#8ecae6 ;
+    background-color: #0077b6; /* より深みのある青系 */
     margin-top: 0;
+    text-align: center; /* 中央寄せ */
     padding: 20px 20px 20px 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 影を追加 */
+
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    font-weight: bold; /* 太文字 */
 }
 
 /* .content {
@@ -51,27 +55,13 @@ html, body {
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 }
 
-.page-header {
-    background-color: #0077b6; /* より深みのある青系 */
-    padding: 30px 20px;
-    text-align: center; /* 中央寄せ */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 影を追加して立体感アップ */
-}
-.page-header h1 a {
-    font-size: 40px;
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-}
 
 .post {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
+    padding: 20px; /* 内側の余白を確保 */
+    border-radius: 8px; /* 角を丸くする */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* 影をつける */
+    margin-bottom: 30px; /* 投稿同士の間に余白を作る */
 }
-
 
 
 
