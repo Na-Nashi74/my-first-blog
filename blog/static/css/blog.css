@@ -10,9 +10,9 @@
     text-decoration: none;
 }
 
-.content {
+/* .content {
     margin-left: 40px;
-}
+} */
 
 /* h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
@@ -52,18 +52,7 @@ html, body {
 }
 
 
-@media screen and (max-width: 768px) {
-    html, body {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-        font-size: 25px !important;
-    }
-    p, h1, h2, h3, h4, h5, h6, a, span {
-        font-size: inherit !important;
-    }
-    h1, h2{
-        font-size: 1.1rem !important;
-    }
-}
+
 
 
 
